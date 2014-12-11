@@ -5,7 +5,7 @@
 #   include textwrangler
 class textwrangler {
   package { 'TextWrangler':
-    source   => 'http://ash.barebones.com/TextWrangler_4.5.8.dmg',
+    source   => 'https://s3.amazonaws.com/BBSW-download/TextWrangler_4.5.12.dmg',
     provider => 'appdmg'
   }
 }
